@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rahma Rashad | Projects</title>
+    <link rel="stylesheet" href="Projects.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Brush+Script+MT&display=swap" rel="stylesheet">
+
+    <!-- Lottie Player Script -->
+    <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Rahma Rashad</div>
+        <div class="nav-links">
+            <a href="#">Home</a>
+            <a href="#">Services</a>
+            <a href="#">About</a>
+            <a href="#" class="active">Projects</a>
+        </div>
+        <a href="#" class="contact-btn">Contact Me</a>
+    </nav>
+
+    <!-- Projects Header -->
+    <section class="projects-header">
+        <h1>My Projects</h1>
+        <p>Each project represents a unique challenge and solution, blending technical expertise with creative design.</p>
+        
+        <div class="projects-filter">
+            <button class="filter-btn active" data-category="all">All</button>
+            <button class="filter-btn" data-category="cyber">Cyber Security</button>
+            <button class="filter-btn" data-category="web">Web Development</button>
+            <button class="filter-btn" data-category="coding">Coding Projects</button>
+        </div>
+    </section>
+
+    <!-- Bottom Fixed Animation -->
+    <div class="bottom-animation">
+        <dotlottie-player
+            src="https://lottie.host/fd340189-2cf9-4cc0-9fae-039f76e87384/KGgVtW601j.lottie"
+            background="transparent"
+            speed="1"
+            loop
+            autoplay>
+        </dotlottie-player>
+    </div>
+
+    <!-- Projects Grid -->
+    <section class="projects-container">
+        <div class="projects-grid">
+            <!-- Web Projects -->
+            <div class="project-card project-1" data-category="web">
+                <img src="GAV.png" 
+                     alt="Global Auctions and Valuations Website" 
+                     class="project-image">
+                <div class="project-content">
+                    <span class="project-category">Web Development</span>
+                    <h3 class="project-title">Global Auctions and Valuations Website</h3>
+                    <p class="project-description">
+                        Designed and migrated the GAV website from Odoo with a fully responsive layout, enhanced performance, and SEO optimization, resulting in improved user experience and visibility.
+                    </p>
+                    
+                    <div class="project-stack">
+                        <span class="stack-item">Odoo</span>
+                        <span class="stack-item">HTML/CSS</span>
+                        <span class="stack-item">JavaScript</span>
+                        <span class="stack-item">SEO</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://gav.com.eg" class="project-link" target="_blank">Live Site</a>
+                        <a href="#" class="project-link secondary view-detail" data-project="gav">View Details</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-card" data-category="cyber">
+    <img src="https://images.unsplash.com/photo-1591696205602-2f950c417cb9" 
+         alt="DLL Malware Classification Tool" 
+         class="project-image">
+    <div class="project-content">
+        <span class="project-category">Cyber Security</span>
+        <h3 class="project-title">DLL Malware Classification Tool</h3>
+        <p class="project-description">
+            A GUI tool to analyze DLL files using a malware database and identify malware family, score threats, and generate summaries.
+        </p>
+        <div class="project-stack">
+            <span class="stack-item">Python</span>
+            <span class="stack-item">Tkinter</span>
+            <span class="stack-item">Pandas</span>
+            <span class="stack-item">Malware Analysis</span>
+        </div>
+        <div class="project-links">
+            <a href="https://github.com/rahmaaax/dll-scanner" class="project-link" target="_blank">GitHub</a>
+            <a href="#" class="project-link secondary view-detail" data-project="dll">View Details</a>
+        </div>
+    </div>
+</div>
+
+            <div class="project-card project-2" data-category="web">
+                <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80" 
+                     alt="Feasibility Studies Platform" 
+                     class="project-image">
+                <div class="project-content">
+                    <span class="project-category">Web Development</span>
+                    <h3 class="project-title">Feasibility Studies Platform</h3>
+                    <p class="project-description">
+                        Custom Odoo platform for GAT's feasibility department with service listings and client portal.
+                    </p>
+                    <div class="project-stack">
+                        <span class="stack-item">Odoo</span>
+                        <span class="stack-item">Python</span>
+                        <span class="stack-item">XML</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://feasibility.gat.com.eg" class="project-link" target="_blank">Visit Site</a>
+                        <a href="#" class="project-link secondary view-detail" data-project="feasibility">View Details</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card" data-category="cyber">
+    <img src="https://images.unsplash.com/photo-1689732888407-310424e3a372?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+         alt="Registry Analysis Tool" 
+         class="project-image">
+    <div class="project-content">
+        <span class="project-category">Cyber Security</span>
+        <h3 class="project-title">Registry Analysis & Monitoring Tool</h3>
+        <p class="project-description">
+            AI-powered registry forensics tool that monitors Windows Registry changes, detects anomalies, scores risks, and outputs reports.
+        </p>
+        <div class="project-stack">
+            <span class="stack-item">Python</span>
+            <span class="stack-item">PyTorch</span>
+            <span class="stack-item">Windows Registry</span>
+            <span class="stack-item">Typer</span>
+        </div>
+        <div class="project-links">
+            <a href="https://github.com/rahmaaax/registry-monitor" class="project-link" target="_blank">GitHub</a>
+            <a href="#" class="project-link secondary view-detail" data-project="registry">View Details</a>
+        </div>
+    </div>
+</div>
+
+            <div class="project-card project-3" data-category="web">
+                <img src="https://images.unsplash.com/photo-1556740738-b6a63e27c4df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" 
+                     alt="Velvet Beauty E-Commerce" 
+                     class="project-image">
+                <div class="project-content">
+                    <span class="project-category">Web Development</span>
+                    <h3 class="project-title">Velvet – Beauty E-Commerce</h3>
+                    <p class="project-description">
+                        Modern e-commerce frontend for beauty products with clean aesthetics and product filtering.
+                    </p>
+                    <div class="project-stack">
+                        <span class="stack-item">Angular</span>
+                        <span class="stack-item">TypeScript</span>
+                        <span class="stack-item">SCSS</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">Live Demo</a>
+                        <a href="#" class="project-link secondary view-detail" data-project="velvet">View Details</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Coding Projects -->
+            <div class="project-card project-4" data-category="coding">
+                <img src="https://images.unsplash.com/photo-1610563166150-b34df4f3bcd6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1376&q=80" 
+                     alt="QuickDraw App" 
+                     class="project-image">
+                <div class="project-content">
+                    <span class="project-category">Coding Project</span>
+                    <h3 class="project-title">QuickDraw – ML Drawing App</h3>
+                    <p class="project-description">
+                        Interactive sketch recognition app using machine learning with real-time feedback.
+                    </p>
+                    <div class="project-stack">
+                        <span class="stack-item">Python</span>
+                        <span class="stack-item">Image Processing</span>
+                        <span class="stack-item">Machine Learning</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">Demo</a>
+                        <a href="#" class="project-link secondary view-detail" data-project="quickdraw">View Details</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card project-1" data-category="coding">
+                <img src="https://images.unsplash.com/photo-1585771724684-38269d6639fd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" 
+                     alt="Pacman Game" 
+                     class="project-image">
+                <div class="project-content">
+                    <span class="project-category">Coding Project</span>
+                    <h3 class="project-title">Pacman Game</h3>
+                    <p class="project-description">
+                        Fully playable Pacman game with smooth animations and collision detection.
+                    </p>
+                    <div class="project-stack">
+                        <span class="stack-item">Java</span>
+                        <span class="stack-item">Swing</span>
+                        <span class="stack-item">AWT</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">Play</a>
+                        <a href="#" class="project-link secondary view-detail" data-project="pacman">View Details</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cyber Security -->
+            <div class="project-card project-2" data-category="cyber">
+                <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" 
+                     alt="Threat Modeling" 
+                     class="project-image">
+                <div class="project-content">
+                    <span class="project-category">Cyber Security</span>
+                    <h3 class="project-title">Threat Modeling & Attack Trees</h3>
+                    <p class="project-description">
+                        Comprehensive attack trees and threat models for identifying system vulnerabilities.
+                    </p>
+                    <div class="project-stack">
+                        <span class="stack-item">Threat Modeling</span>
+                        <span class="stack-item">Risk Analysis</span>
+                        <span class="stack-item">Security</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">Documentation</a>
+                        <a href="#" class="project-link secondary view-detail" data-project="threat">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Detail Views -->
+    <div class="project-detail" id="gav-detail">
+        <div class="detail-header">
+            <h2 class="detail-title">Global Appraisal Website</h2>
+            <div class="close-btn">
+                <i class="fas fa-times"></i>
+            </div>
+        </div>
+        
+        <div class="detail-content">
+            <div class="detail-images">
+                <img src="GAV.png" 
+                     alt="GAV Website" 
+                     class="detail-main-image">
+                <div class="detail-thumbnails">
+                    <img src="GAVV/home.png" 
+                         alt="GAV Thumbnail 1" 
+                         class="detail-thumbnail">
+                    <img src="GAVV/about.png" 
+                         alt="GAV Thumbnail 2" 
+                         class="detail-thumbnail active">
+                    <img src="GAVV/services.png" 
+                         alt="GAV Thumbnail 3" 
+                         class="detail-thumbnail">
+                    <img src="GAVV/Team.png" 
+                         alt="GAV Thumbnail 4" 
+                         class="detail-thumbnail">
+                    <img src="GAVV/clients.png" 
+                         alt="GAV Thumbnail 5" 
+                         class="detail-thumbnail active">
+                    <img src="GAVV/ExploreAuctions.png" 
+                         alt="GAV Thumbnail 6" 
+                         class="detail-thumbnail">
+                    <img src="GAVV/contact.png" 
+                         alt="GAV Thumbnail 7" 
+                         class="detail-thumbnail">
+                    
+                </div>
+            </div>
+            <div class="detail-info">
+                <p class="detail-description">
+                    I led the full design and launch of the Global Auctions and Valuations (GAV) website on Odoo, creating a sleek, professional layout tailored to the client’s real estate and auction services. When the client later requested a platform shift, I seamlessly migrated the entire website to Duda with zero downtime. I prioritized clean UI, fast loading speed, and responsiveness across all devices while optimizing SEO using Google Analytics and Duda tools. Despite changing scope, the project was completed on time and fully met the client’s evolving needs.
+                </p>
+                <div class="detail-features">
+                    <div class="feature-item">
+                        <div class="feature-icon"><i class="fas fa-check-circle"></i></div>
+                        <p class="feature-text">Designed and built the full website on Odoo with a clean, modern UI optimized for real estate listings and auctions</p>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon"><i class="fas fa-check-circle"></i></div>
+                        <p class="feature-text">Handled full migration to Duda with no downtime, ensuring smooth platform transition and preserving performance</p>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon"><i class="fas fa-check-circle"></i></div>
+                        <p class="feature-text">Used Cloudflare to manage domain records and support a fast, secure migration</p>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon"><i class="fas fa-check-circle"></i></div>
+                        <p class="feature-text">Optimized site structure, meta tags, and performance using Google Analytics and built-in SEO tools</p>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon"><i class="fas fa-check-circle"></i></div>
+                        <p class="feature-text">Delivered under tight timelines while fully meeting the client’s visual and functional requirements</p>
+                    </div>
+                </div>
+                <div class="detail-stack">
+                    <h3 class="detail-stack-title">Technologies Used</h3>
+                    <div class="project-stack">
+                        <span class="stack-item">Odoo</span>
+                        <span class="stack-item">Duda</span>
+                        <span class="stack-item">Cloudflare</span>
+                        <span class="stack-item">Google Analytics</span>
+                        <span class="stack-item">SEO Tools</span>
+                        <span class="stack-item">Responsive Design</span>
+                    </div>
+                </div>
+                <div class="detail-links">
+                    <a href="https://gav.com.eg" class="detail-link primary" target="_blank">Visit Live Site</a>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="project-detail" id="registry-detail">
+    <div class="detail-header">
+        <h2 class="detail-title">Registry Analysis & Monitoring Tool</h2>
+        <div class="close-btn"><i class="fas fa-times"></i></div>
+    </div>
+    <div class="detail-content">
+        <p class="detail-description">
+            A full-featured forensic tool to detect, score, and report suspicious changes in the Windows Registry using machine learning techniques.
+        </p>
+        <div class="detail-features">
+            <div class="feature-item"><div class="feature-icon"><i class="fas fa-check-circle"></i></div>
+                <p class="feature-text">Monitors Registry changes and logs anomalies</p>
+            </div>
+            <div class="feature-item"><div class="feature-icon"><i class="fas fa-check-circle"></i></div>
+                <p class="feature-text">AI/ML-based anomaly detection using PyTorch</p>
+            </div>
+            <div class="feature-item"><div class="feature-icon"><i class="fas fa-check-circle"></i></div>
+                <p class="feature-text">Generates forensic reports in HTML/CSV format</p>
+            </div>
+        </div>
+        <div class="detail-stack">
+            <h3 class="detail-stack-title">Technologies Used</h3>
+            <div class="project-stack">
+                <span class="stack-item">Python</span>
+                <span class="stack-item">PyTorch</span>
+                <span class="stack-item">Windows Registry</span>
+                <span class="stack-item">Typer</span>
+            </div>
+        </div>
+        <div class="detail-links">
+            <a href="https://github.com/rahmaaax/registry-monitor" class="detail-link primary" target="_blank">View GitHub</a>
+        </div>
+    </div>
+</div>
+<div class="project-detail" id="dll-detail">
+    <div class="detail-header">
+        <h2 class="detail-title">DLL Malware Classification Tool</h2>
+        <div class="close-btn"><i class="fas fa-times"></i></div>
+    </div>
+    <div class="detail-content">
+        <p class="detail-description">
+            This tool helps identify malware by scanning DLL files against a large dataset and returning family matches and threat scores. Built in Python with a simple GUI for real-time use.
+        </p>
+        <div class="detail-features">
+            <div class="feature-item"><div class="feature-icon"><i class="fas fa-check-circle"></i></div>
+                <p class="feature-text">Scans DLLs for malware family classification using CSV dataset</p>
+            </div>
+            <div class="feature-item"><div class="feature-icon"><i class="fas fa-check-circle"></i></div>
+                <p class="feature-text">GUI built with Tkinter for interactive use</p>
+            </div>
+            <div class="feature-item"><div class="feature-icon"><i class="fas fa-check-circle"></i></div>
+                <p class="feature-text">Outputs risk summary based on matched threat level</p>
+            </div>
+        </div>
+        <div class="detail-stack">
+            <h3 class="detail-stack-title">Technologies Used</h3>
+            <div class="project-stack">
+                <span class="stack-item">Python</span>
+                <span class="stack-item">Tkinter</span>
+                <span class="stack-item">CSV Dataset</span>
+                <span class="stack-item">Malware Analysis</span>
+            </div>
+        </div>
+        <div class="detail-links">
+            <a href="https://github.com/rahmaaax/dll-scanner" class="detail-link primary" target="_blank">View GitHub</a>
+        </div>
+    </div>
+</div>
+
+    <div class="project-detail" id="feasibility-detail">
+        <div class="detail-header">
+            <h2 class="detail-title">Feasibility Studies Platform</h2>
+            <div class="close-btn">
+                <i class="fas fa-times"></i>
+            </div>
+        </div>
+        <div class="detail-content">
+            <div class="detail-images">
+                <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80" 
+                     alt="Feasibility Platform" 
+                     class="detail-main-image">
+                <div class="detail-thumbnails">
+                    <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80" 
+                         alt="Feasibility Thumbnail 1" 
+                         class="detail-thumbnail active">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" 
+                         alt="Feasibility Thumbnail 2" 
+                         class="detail-thumbnail">
+                    <img src="https://images.unsplash.com/photo-1556740738-b6a63e27c4df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" 
+                         alt="Feasibility Thumbnail 3" 
+                         class="detail-thumbnail">
+                </div>
+            </div>
+            <div class="detail-info">
+                <p class="detail-description">
+                    Developed a custom Odoo platform for Global Appraisal Tech's feasibility studies department. The platform serves as both a marketing site and client portal, allowing potential clients to explore services and existing clients to access their reports and resources.
+                </p>
+                <div class="detail-features">
+                    <div class="feature-item">
+                        <div class="feature-icon"><i class="fas fa-check-circle"></i></div>
+                        <p class="feature-text">Custom Odoo module development for feasibility study management</p>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon"><i class="fas fa-check-circle"></i></div>
+                        <p class="feature-text">Client portal with secure document access and download capabilities</p>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon"><i class="fas fa-check-circle"></i></div>
+                        <p class="feature-text">Service pages with detailed descriptions and pricing information</p>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon"><i class="fas fa-check-circle"></i></div>
+                        <p class="feature-text">Resource center with industry reports and whitepapers</p>
+                    </div>
+                </div>
+                <div class="detail-stack">
+                    <h3 class="detail-stack-title">Technologies Used</h3>
+                    <div class="project-stack">
+                        <span class="stack-item">Odoo</span>
+                        <span class="stack-item">Python</span>
+                        <span class="stack-item">PostgreSQL</span>
+                        <span class="stack-item">XML</span>
+                        <span class="stack-item">JavaScript</span>
+                    </div>
+                </div>
+                <div class="detail-links">
+                    <a href="https://feasibility.gat.com.eg" class="detail-link primary" target="_blank">Visit Live Site</a>
+                    <a href="#" class="detail-link secondary">View Documentation</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Add similar detail sections for other projects -->
+
+    <script>
+        // Filter functionality
+        const filterButtons = document.querySelectorAll('.filter-btn');
+        const projectCards = document.querySelectorAll('.project-card');
+        
+        filterButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                // Update active button
+                filterButtons.forEach(btn => btn.classList.remove('active'));
+                button.classList.add('active');
+                
+                // Filter projects
+                const filterValue = button.dataset.category;
+                
+                projectCards.forEach(card => {
+                    if (filterValue === 'all') {
+                        card.style.display = 'block';
+                    } else {
+                        const cardCategory = card.dataset.category;
+                        if (cardCategory === filterValue) {
+                            card.style.display = 'block';
+                        } else {
+                            card.style.display = 'none';
+                        }
+                    }
+                    
+                    // Trigger reflow for animation
+                    setTimeout(() => {
+                        card.style.opacity = '1';
+                    }, 50);
+                });
+            });
+        });
+
+        // Project detail view functionality
+        const viewDetailButtons = document.querySelectorAll('.view-detail');
+        const projectDetails = document.querySelectorAll('.project-detail');
+        const closeButtons = document.querySelectorAll('.close-btn');
+        
+        viewDetailButtons.forEach(button => {
+            button.addEventListener('click', (e) => {
+                e.preventDefault();
+                const projectId = button.dataset.project;
+                const detailView = document.getElementById(`${projectId}-detail`);
+                
+                // Hide all details first
+                projectDetails.forEach(detail => {
+                    detail.classList.remove('active');
+                });
+                
+                // Show the selected one
+                detailView.classList.add('active');
+                
+                // Scroll to top
+                window.scrollTo(0, 0);
+            });
+        });
+        
+        closeButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                // Hide all details
+                projectDetails.forEach(detail => {
+                    detail.classList.remove('active');
+                });
+            });
+        });
+
+        // Thumbnail click functionality
+        const thumbnails = document.querySelectorAll('.detail-thumbnail');
+        thumbnails.forEach(thumbnail => {
+            thumbnail.addEventListener('click', () => {
+                // Remove active class from all thumbnails in this group
+                const parent = thumbnail.parentElement;
+                parent.querySelectorAll('.detail-thumbnail').forEach(t => {
+                    t.classList.remove('active');
+                });
+                
+                // Add active class to clicked thumbnail
+                thumbnail.classList.add('active');
+                
+                // Update main image
+                const mainImage = parent.previousElementSibling;
+                mainImage.src = thumbnail.src;
+            });
+        });
+    </script>
+</body>
+</html>
